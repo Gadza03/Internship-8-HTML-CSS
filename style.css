@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 2.8em;
+  margin-bottom: 20px;
+}
+header {
+  text-align: center;
+  color: white;
+}
+.nav-wrapper {
+  margin: 0 auto;
+  width: 20%;
+}
+.nav-wrapper ul {
+  text-align: left;
+  margin-bottom: 30px;
+}
+.nav-wrapper a {
+  color: cyan;
+}
+.dropdown-trigger {
+  display: inline-block;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.dropdown {
+  display: none;
+}
+#dropdown-toggle {
+  display: none;
+}
+label::before {
+  content: "►  ";
+}
+#dropdown-toggle:checked + label::before {
+  content: "▼  ";
+}
+#dropdown-toggle:checked + label + .dropdown {
+  display: block;
+}
+hr {
+  margin: 8px 0;
+  border-color: orange;
+}
+.section {
+  background-color: #faebd7;
+  padding: 10px 10px;
+  font-size: 1.5em;
+}
+.section h2 {
+  margin-bottom: 25px;
+}
+#what {
+  border: 10px #ff00ff solid;
+}
+#what a {
+  color: #000080;
+}
+#how {
+  border: 10px cyan solid;
+}
+#but {
+  border: 10px rgb(255, 140, 0) solid;
+}
+#but img {
+  margin-bottom: 20px;
+}
+#but a {
+  color: #000080;
+}
+footer {
+  text-align: center;
+  color: white;
+}
+footer a {
+  color: cyan;
+}
+footer marquee {
+  margin-top: 20px;
+  font-size: 0.8em;
+  text-align: center;
+}
+footer p {
+  margin-top: 15px;
+}
